@@ -1,0 +1,4 @@
+repository "Gimjem/Gimjem@18967828824563@cloud"
+  path "/"
+    br "/main"
+    co "/main"

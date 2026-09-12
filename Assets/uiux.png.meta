@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: 2801197290060d8418be5942cbd9ae7c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6357888744903993116
+    second: uiux_0
+  - first:
+      213: 8918124019207901534
+    second: uiux_1
+  - first:
+      213: -4517311608267476085
+    second: uiux_2
+  - first:
+      213: 702754382600723913
+    second: uiux_3
+  - first:
+      213: 4636750931405907766
+    second: uiux_4
+  - first:
+      213: -8036536778965751717
+    second: uiux_5
+  - first:
+      213: 4371205569389608275
+    second: uiux_6
+  - first:
+      213: -3601743540354808897
+    second: uiux_7
+  - first:
+      213: -9086753353909931322
+    second: uiux_8
+  - first:
+      213: 2899732379502286169
+    second: uiux_9
+  - first:
+      213: -4021696703845501137
+    second: uiux_10
+  - first:
+      213: 246131284018156835
+    second: uiux_11
+  - first:
+      213: 5090752752575568011
+    second: uiux_12
+  - first:
+      213: -5448558446929839540
+    second: uiux_13
+  - first:
+      213: -8783596017536284850
+    second: uiux_14
+  - first:
+      213: 5503293231544374524
+    second: uiux_15
+  - first:
+      213: 4849848550435938121
+    second: uiux_16
+  - first:
+      213: 4063402599574922740
+    second: uiux_17
+  - first:
+      213: -8573689723318716545
+    second: uiux_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: uiux_0
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1761
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e81b8e3fdd34c7a0800000000000000
+      internalID: -6357888744903993116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiux_1
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1787
+        width: 44
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5114c39b8a83cb70800000000000000
+      internalID: 8918124019207901534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiux_2
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1647
+        width: 61
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83f779a6094f41c0800000000000000
+      internalID: -4517311608267476085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiux_3
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1647
+        width: 90
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cdd34b336fa0c900800000000000000
+      internalID: 702754382600723913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiux_4
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 1647
+        width: 78
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6372962d76c095040800000000000000
+      internalID: 4636750931405907766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiux_5
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 1647
+        width: 66
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b586261016c787090800000000000000
+      internalID: -8036536778965751717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiux_6
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1647
+        width: 97
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d3da34e44a9ac30800000000000000
+      internalID: 4371205569389608275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiux_7
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1787
+        width: 44
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb308193559040ec0800000000000000
+      internalID: -3601743540354808897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiux_8
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1761
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2fb92e7fd55e180800000000000000
+      internalID: -9086753353909931322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiux_9
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1760
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9559ee75c3bed3820800000000000000
+      internalID: 2899732379502286169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiux_10
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1760
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f27fdecd7201038c0800000000000000
+      internalID: -4021696703845501137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiux_11
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1707
+        width: 141
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3255308491f6a6300800000000000000
+      internalID: 246131284018156835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiux_12
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 1707
+        width: 141
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88db9018acf5a640800000000000000
+      internalID: 5090752752575568011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiux_13
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1621
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4afac0d5f4d264b0800000000000000
+      internalID: -5448558446929839540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiux_14
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1649
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47c634a5f56a1680800000000000000
+      internalID: -8783596017536284850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiux_15
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1649
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf493015900af5c40800000000000000
+      internalID: 5503293231544374524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiux_16
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1621
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f5d2f9f8f1e4340800000000000000
+      internalID: 4849848550435938121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiux_17
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1628
+        width: 44
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5ef0fa22b146830800000000000000
+      internalID: 4063402599574922740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiux_18
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1628
+        width: 44
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77bb2b3f92240980800000000000000
+      internalID: -8573689723318716545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      uiux_0: -6357888744903993116
+      uiux_1: 8918124019207901534
+      uiux_10: -4021696703845501137
+      uiux_11: 246131284018156835
+      uiux_12: 5090752752575568011
+      uiux_13: -5448558446929839540
+      uiux_14: -8783596017536284850
+      uiux_15: 5503293231544374524
+      uiux_16: 4849848550435938121
+      uiux_17: 4063402599574922740
+      uiux_18: -8573689723318716545
+      uiux_2: -4517311608267476085
+      uiux_3: 702754382600723913
+      uiux_4: 4636750931405907766
+      uiux_5: -8036536778965751717
+      uiux_6: 4371205569389608275
+      uiux_7: -3601743540354808897
+      uiux_8: -9086753353909931322
+      uiux_9: 2899732379502286169
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

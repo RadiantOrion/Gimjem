@@ -23,9 +23,9 @@ public class Pscore : MonoBehaviour
         timerTanpaKena += Time.deltaTime;
 
         // Jika berhasil bertahan 30 detik tanpa menyentuh lilin
-        if (timerTanpaKena >= 30f)
+        if (timerTanpaKena >= 1f)
         {
-            TambahSkor(100, "Eternal Flame");
+            TambahSkor(1, "Keep Alive");
             timerTanpaKena = 0f; // Ulangi timer dari 0
         }
     }
@@ -44,7 +44,7 @@ public class Pscore : MonoBehaviour
     {
         if (teksSkorUI != null)
         {
-            teksSkorUI.text = "Skor: " + totalSkor;
+            teksSkorUI.text = "" + totalSkor;
         }
     }
 
@@ -78,6 +78,15 @@ public class Pscore : MonoBehaviour
             timerTanpaKena = 0f; // Reset timer karena menabrak
             Debug.Log("Aduh Nabrak Lilin!");
             // (Nanti logika kurangi HP dimasukkan ke sini)
+            // SISTEM PENINGKAT KECEPATAN OTOMATIS
+            // Batasi kecepatan maksimal (misalnya 2.5x lipat) agar game tetap bisa dimainkan
+            if (Time.timeScale < 2.5f)
+            {
+                // Tambah kecepatan 1% (0.01f) setiap detiknya
+                Time.timeScale += 0.01f * Time.deltaTime;
+            }
         }
+
     }
+
 }

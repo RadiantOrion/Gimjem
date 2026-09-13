@@ -1,7 +1,7 @@
+using TMPro;
 using UnityEngine;
-using TMPro; // Wajib ditambahkan agar bisa mengubah teks UI
 
-public class Pscore : MonoBehaviour
+public class PlayerSc : MonoBehaviour
 {
     [Header("Skor Game")]
     public int totalSkor = 0;

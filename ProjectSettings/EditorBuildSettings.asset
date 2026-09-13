@@ -6,13 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/mendesak2.unity
+    guid: 9c6788d31ed242844835bdaf55306eeb
   - enabled: 1
-    path: Assets/UIUXPLISSS.unity
-    guid: 18e6cd3870b0cc943a728ede8c4234b0
-  - enabled: 1
-    path: Assets/Scenes/Mendesak.unity
-    guid: c05afc8f91b39cf46b47170cda941843
+    path: Assets/Scenes/Mendesak_Sekian.unity
+    guid: b91ceda63ad31e445828f22ac1a805a6
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

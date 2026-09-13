@@ -6,6 +6,16 @@ public class SistemHPApi : MonoBehaviour
     [Header("Pengaturan HP")]
     public int nyawa = 3;
 
+    [Header("UI Game Over")]
+    public GameObject layarGameOver;
+
+    void Start()
+    {
+        // Pastikan UI disembunyikan dan waktu berjalan normal saat mulai
+        if (layarGameOver != null) layarGameOver.SetActive(false);
+        Time.timeScale = 1f;
+    }
+
     // Fungsi ini akan dipanggil oleh lilin saat bersentuhan
     public void KurangiHP()
     {
@@ -20,13 +30,32 @@ public class SistemHPApi : MonoBehaviour
 
     void GameOver()
     {
-        Debug.Log("GAME OVER! Lilin yang disentuh sudah maksimal.");
+        // Munculkan layar UI dan hentikan waktu (Pause)
+        if (layarGameOver != null) layarGameOver.SetActive(true);
+        Time.timeScale = 0f;
+    }
 
-        // Cara paling umum untuk Game Over: Mengulang level saat ini dari awal
+    public void KlikRestart()
+    {
+        Time.timeScale = 1f; // Kembalikan waktu berjalan normal
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 
-        // Catatan: Jika Anda ingin memunculkan layar UI Game Over, 
-        // Anda bisa memanggil fungsi UI Anda di sini dan menggunakan "Time.timeScale = 0;" 
-        // untuk menghentikan pergerakan game.
+    public void KlikMainMenu()
+    {
+        Time.timeScale = 1f;
+
+        // MENCARI DAN MENGHANCURKAN BGM GAMEPLAY
+        // Pastikan nama di dalam tanda kutip ini sama persis dengan 
+        // nama GameObject BGM Anda di Scene permainan.
+        GameObject bgmGameplay = GameObject.Find("BackgroundMusic");
+        if (bgmGameplay != null)
+        {
+            Destroy(bgmGameplay);
+        }
+
+        Time.timeScale = 1f; // Kembalikan waktu berjalan normal
+        // Ganti "MenuUtama" dengan nama Scene menu Anda nanti
+        SceneManager.LoadScene("MenuUtama");
     }
 }

@@ -8,6 +8,9 @@ public class GameManagerScript : MonoBehaviour
 
     public Rigidbody2D rbApi;
     public string namaScene;
+
+    public GameObject UiPopUp;
+    public bool SedangAktif = false;
     
     public void MulaiGame()
     {
@@ -26,5 +29,20 @@ public class GameManagerScript : MonoBehaviour
         SceneManager.LoadScene(namaScene);
     }
 
+    public void MunculkanPopup()
+    {
+        SedangAktif = !SedangAktif;
+
+        if (SedangAktif == true)
+        {
+            UiPopUp.SetActive(true);
+
+        } else
+        {
+            UiPopUp.SetActive(false);
+        }
+
+    }
+    
 
 }
